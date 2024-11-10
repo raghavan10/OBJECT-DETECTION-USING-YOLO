@@ -1,6 +1,7 @@
 ## Object Detection and Speed Estimation using YOLO
 
 **Project Overview**
+
 This project performs object detection and speed estimation on traffic videos using the YOLOv8 model. The primary goal is to identify various traffic objects (cars, trucks, buses) and estimate their speed by tracking their movement across frames. The final output includes annotated video playback with bounding boxes, labels, and traces for each detected object, displayed interactively using Gradio.
 
 **Project Objectives**
@@ -45,9 +46,9 @@ cd <repository_name>
 python main.py --input <path_to_traffic_video> --confidence <value> --iou <value>
 ```
 
-- <path_to_traffic_video>: Path to the input video file.
-- --confidence: Minimum confidence threshold for object detection (e.g., 0.5).
-- --iou: Intersection-over-Union threshold for detection.
+   - <path_to_traffic_video>: Path to the input video file.
+   - --confidence: Minimum confidence threshold for object detection (e.g., 0.5).
+   - --iou: Intersection-over-Union threshold for detection.
 
 3. Interactive Playback: After processing, the video playback will appear in a Gradio interface with annotations.
 
